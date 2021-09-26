@@ -1,0 +1,1121 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0193F6BEB838D3261352F48003350305 /* WPlayerKit in Sources */ = {isa = PBXBuildFile; fileRef = E81052C72AC103B1B2F8A9F37CE22A12 /* WPlayerKit */; };
+		0F9E89EB89C732DE42CC2B7A0EB9B140 /* ZDKSpeakerVoice.h in Headers */ = {isa = PBXBuildFile; fileRef = 6029B6FAC5486E68C81902C7742DE7DF /* ZDKSpeakerVoice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		1B15B4443D603F41825242B51411C7D0 /* P2PPlayManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D965421077F88423408C525469B496EF /* P2PPlayManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21CECCAC028B721175F4E7AC6D15F53E /* WPlayerKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C351625B598C95C29E569B491BFACDE /* WPlayerKit-dummy.m */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
+		2F0D9E2565EDA50F981107E171CBA70B /* NetApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 73F25DDCBA3F6952479FDDBA1941EBF3 /* NetApiManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		309C441498CDA0A801794E4878B5CA50 /* PlayerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 17CD7438676D64717B5473FEF26BF8A9 /* PlayerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32CA574C055728EA5DE8EDAE8A2CB999 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = D934B35686ABC1D39C96206678324F40 /* module.modulemap */; };
+		3F20EFA4511C6FA008D55A3729AF619D /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 68C22BEF11FDF40168E1B96258C69AFC /* Info.plist */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C955913AF02A5F45B025922687CE085 /* Pods-WPlayerKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0010A81FA4F4017A92EF55E509EEF4A4 /* Pods-WPlayerKit_Example-dummy.m */; };
+		61B33A92A659788ADFF51ED5B3D247D9 /* MediaCallBackDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FC0AD7C079F79F25840FF81FE0C7FC73 /* MediaCallBackDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65B2CB8A982CC907690C6E67E7BE920F /* ZDKPlayVideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = E76A6A86B585C8D3D682185B6E5B5036 /* ZDKPlayVideoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65FFF451DEA6B73971E00EE0EE1DA77E /* SpeakVoiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF414E9A852DE58E40F2C3C6EFE9B00 /* SpeakVoiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		71BDBD6A08BD56512900424C434C8EB2 /* MediaHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B81B24A6C0444A6CFA957452994ACA /* MediaHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75FA827C37CC4A584A48611607B0D0CB /* MessageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCF5C4CC4E636053919FEE84F2D9BA7 /* MessageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CA2133F75EC77F0EF9C680965AC0584 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		7F5E42B6DCE023318FF3F8B6C18AB69E /* Pods-WPlayerKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B5C70CF01432FA9C38215979018103 /* Pods-WPlayerKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81A90E2D19D59DDDCE9EAF3268A3ADE7 /* Pods-WPlayerKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 155E537BC77BC95BD414E33D6F0DD159 /* Pods-WPlayerKit_Tests-dummy.m */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		8B1A7FD2D7671403A4FDF7ABED3C9E2C /* ZDKBeautyControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 826703DE7118D406789F585A1C584225 /* ZDKBeautyControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		8CFC57E92B02CCAB4EF7C59465934AE6 /* WPlayerKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC4CE49E73913696999DB91AD9D1FEB8 /* WPlayerKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F499851BFEF3926A83B74362EEDDF84 /* Server.h in Headers */ = {isa = PBXBuildFile; fileRef = A8C20EB7FF8570A89A91DB5CD5D46E11 /* Server.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		A51ECD304DD008F83BE0170536C49B1E /* WPlayerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C1A871E57E22954FC5018415FC5FF4E /* WPlayerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		D03C75232C87A4B235B69F567FFF09B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E7A242D371868B3CDDDADD0CECC83392 /* P2PRecordVideoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E8E757891A4890D3FC58D23251778F /* P2PRecordVideoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		F0952F8C216458F280F014195EF853BF /* MediaClient.h in Headers */ = {isa = PBXBuildFile; fileRef = E40621DCD7CB89DEB9E9538F611D302F /* MediaClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F4C5D238F8787207EB668E8C5C28E685 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD1D107E9DD6D2704CAC49AF9526153E /* Pods-WPlayerKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D37AA78774FFE73FBBE2F934BEA6631E /* Pods-WPlayerKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06EB2DBB91EC8567CF604F23590F0625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		1239FFE2760D84D3DA54B0804E3D1F64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC002695E57ECDFF401E3AB1D5A27DF8;
+			remoteInfo = WPlayerKit;
+		};
+		4F040C7B999AA4673D2D9C6FC5571BBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2153292F77C7739AFBDAA78C51D4A582;
+			remoteInfo = "Pods-WPlayerKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0010A81FA4F4017A92EF55E509EEF4A4 /* Pods-WPlayerKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WPlayerKit_Example-dummy.m"; sourceTree = "<group>"; };
+		00DBA5C486FE0F049AEC34306507D565 /* Pods-WPlayerKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPlayerKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		08B5C70CF01432FA9C38215979018103 /* Pods-WPlayerKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WPlayerKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		10C8B77F07B75AEA0067934E7C1BF9C2 /* Pods-WPlayerKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WPlayerKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		155E537BC77BC95BD414E33D6F0DD159 /* Pods-WPlayerKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WPlayerKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		17CD7438676D64717B5473FEF26BF8A9 /* PlayerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PlayerManager.h; sourceTree = "<group>"; };
+		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		266FF574B482361D52871A3163938A99 /* Pods-WPlayerKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPlayerKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		2C351625B598C95C29E569B491BFACDE /* WPlayerKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WPlayerKit-dummy.m"; sourceTree = "<group>"; };
+		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		3A4B95CB4882491BE2B3DF7955C0E32F /* Pods-WPlayerKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPlayerKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		48F17B01987D8E06DECD5B872D46A6F9 /* Pods-WPlayerKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WPlayerKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4C1A871E57E22954FC5018415FC5FF4E /* WPlayerKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPlayerKit.h; sourceTree = "<group>"; };
+		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		50BCA5D54F7F51EEDC1411A28082C0F3 /* Pods-WPlayerKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPlayerKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		53257219EA42CA3AB129F2FB397EE876 /* WPlayerKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WPlayerKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6029B6FAC5486E68C81902C7742DE7DF /* ZDKSpeakerVoice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZDKSpeakerVoice.h; sourceTree = "<group>"; };
+		63B81B24A6C0444A6CFA957452994ACA /* MediaHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MediaHeader.h; sourceTree = "<group>"; };
+		63E8E757891A4890D3FC58D23251778F /* P2PRecordVideoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = P2PRecordVideoManager.h; sourceTree = "<group>"; };
+		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		68C22BEF11FDF40168E1B96258C69AFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = WPlayerKit/Classes/WPlayerKit.framework/Info.plist; sourceTree = "<group>"; };
+		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		725F9F503E944D5E042B4C5E9F69BB77 /* Pods-WPlayerKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPlayerKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		73F25DDCBA3F6952479FDDBA1941EBF3 /* NetApiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NetApiManager.h; sourceTree = "<group>"; };
+		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		826703DE7118D406789F585A1C584225 /* ZDKBeautyControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZDKBeautyControl.h; sourceTree = "<group>"; };
+		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8C5422E9305172BB5350B19022A172B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		965EA238D54D2039459991D7550463D2 /* Pods-WPlayerKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPlayerKit_Example-Info.plist"; sourceTree = "<group>"; };
+		975B532457E71C2009F0424D3186717F /* Pods_WPlayerKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WPlayerKit_Example.framework; path = "Pods-WPlayerKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D43F9ACA9375030F9CD7C02CC5F628 /* Pods-WPlayerKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WPlayerKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9B0B22D7EC872FF66E5693872776383E /* Pods-WPlayerKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPlayerKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6E164A2E0D80CC14280B1759A09B662 /* Pods-WPlayerKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WPlayerKit_Tests.modulemap"; sourceTree = "<group>"; };
+		A8C20EB7FF8570A89A91DB5CD5D46E11 /* Server.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		B042C672D3D35EC042314C6DCADF0001 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B1BC8968B59737E021F8E8FCB35863A2 /* Pods-WPlayerKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WPlayerKit_Example.modulemap"; sourceTree = "<group>"; };
+		B54F65AE2F241E82FE1180DEE9675871 /* WPlayerKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPlayerKit-prefix.pch"; sourceTree = "<group>"; };
+		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		B98AD4A8C327FAF7B532210329DF0F27 /* WPlayerKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WPlayerKit.modulemap; sourceTree = "<group>"; };
+		C484313B9D98B2194497E22914D2AA5E /* Pods-WPlayerKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WPlayerKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CC1AB9DF9AAEF7295D51AD1770BE5113 /* Pods_WPlayerKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WPlayerKit_Tests.framework; path = "Pods-WPlayerKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D37AA78774FFE73FBBE2F934BEA6631E /* Pods-WPlayerKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WPlayerKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		D8D9177C08E0EB966FBB03CD689123F1 /* WPlayerKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WPlayerKit-Info.plist"; sourceTree = "<group>"; };
+		D934B35686ABC1D39C96206678324F40 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		D965421077F88423408C525469B496EF /* P2PPlayManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = P2PPlayManager.h; sourceTree = "<group>"; };
+		DA60082EC8FB372AEAA7503969684A62 /* WPlayerKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPlayerKit.release.xcconfig; sourceTree = "<group>"; };
+		DBE81033D90D68A7A74C8B3BF93F3649 /* WPlayerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WPlayerKit.framework; path = WPlayerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF414E9A852DE58E40F2C3C6EFE9B00 /* SpeakVoiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SpeakVoiceManager.h; sourceTree = "<group>"; };
+		E40621DCD7CB89DEB9E9538F611D302F /* MediaClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MediaClient.h; sourceTree = "<group>"; };
+		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E76A6A86B585C8D3D682185B6E5B5036 /* ZDKPlayVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZDKPlayVideoView.h; sourceTree = "<group>"; };
+		E81052C72AC103B1B2F8A9F37CE22A12 /* WPlayerKit */ = {isa = PBXFileReference; includeInIndex = 1; name = WPlayerKit; path = WPlayerKit/Classes/WPlayerKit.framework/WPlayerKit; sourceTree = "<group>"; };
+		E8B0BF4D919D922A5AB5AD22EF4C62B8 /* Pods-WPlayerKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPlayerKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEEBA9BC5720ADA9627C0C0FEBAFB157 /* WPlayerKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPlayerKit.debug.xcconfig; sourceTree = "<group>"; };
+		FBCF5C4CC4E636053919FEE84F2D9BA7 /* MessageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MessageManager.h; sourceTree = "<group>"; };
+		FC0AD7C079F79F25840FF81FE0C7FC73 /* MediaCallBackDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MediaCallBackDelegate.h; sourceTree = "<group>"; };
+		FC4CE49E73913696999DB91AD9D1FEB8 /* WPlayerKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPlayerKit-umbrella.h"; sourceTree = "<group>"; };
+		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EED9D1565DE53380A5650D6BBB2911E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03C75232C87A4B235B69F567FFF09B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BD9D9FC3F683C2EAF0A003C080CD900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA2133F75EC77F0EF9C680965AC0584 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918D1449CF6E0E42F3BD18C1B6B6B483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C5D238F8787207EB668E8C5C28E685 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */,
+				2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */,
+				BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */,
+				121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3553B519EA67A4C5F9C63C8B2B51468B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D934B35686ABC1D39C96206678324F40 /* module.modulemap */,
+			);
+			name = Modules;
+			path = WPlayerKit/Classes/WPlayerKit.framework/Modules;
+			sourceTree = "<group>";
+		};
+		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
+				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
+				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
+				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
+				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
+				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
+				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
+				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
+				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
+				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
+				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
+				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
+				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
+				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		536A177C54B7DB9169E66AF3429EF05B /* Pods-WPlayerKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A6E164A2E0D80CC14280B1759A09B662 /* Pods-WPlayerKit_Tests.modulemap */,
+				48F17B01987D8E06DECD5B872D46A6F9 /* Pods-WPlayerKit_Tests-acknowledgements.markdown */,
+				3A4B95CB4882491BE2B3DF7955C0E32F /* Pods-WPlayerKit_Tests-acknowledgements.plist */,
+				155E537BC77BC95BD414E33D6F0DD159 /* Pods-WPlayerKit_Tests-dummy.m */,
+				97D43F9ACA9375030F9CD7C02CC5F628 /* Pods-WPlayerKit_Tests-frameworks.sh */,
+				266FF574B482361D52871A3163938A99 /* Pods-WPlayerKit_Tests-Info.plist */,
+				08B5C70CF01432FA9C38215979018103 /* Pods-WPlayerKit_Tests-umbrella.h */,
+				00DBA5C486FE0F049AEC34306507D565 /* Pods-WPlayerKit_Tests.debug.xcconfig */,
+				9B0B22D7EC872FF66E5693872776383E /* Pods-WPlayerKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-WPlayerKit_Tests";
+			path = "Target Support Files/Pods-WPlayerKit_Tests";
+			sourceTree = "<group>";
+		};
+		57C063CD38D7C16446831D114C927791 /* Pods-WPlayerKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B1BC8968B59737E021F8E8FCB35863A2 /* Pods-WPlayerKit_Example.modulemap */,
+				10C8B77F07B75AEA0067934E7C1BF9C2 /* Pods-WPlayerKit_Example-acknowledgements.markdown */,
+				E8B0BF4D919D922A5AB5AD22EF4C62B8 /* Pods-WPlayerKit_Example-acknowledgements.plist */,
+				0010A81FA4F4017A92EF55E509EEF4A4 /* Pods-WPlayerKit_Example-dummy.m */,
+				C484313B9D98B2194497E22914D2AA5E /* Pods-WPlayerKit_Example-frameworks.sh */,
+				965EA238D54D2039459991D7550463D2 /* Pods-WPlayerKit_Example-Info.plist */,
+				D37AA78774FFE73FBBE2F934BEA6631E /* Pods-WPlayerKit_Example-umbrella.h */,
+				725F9F503E944D5E042B4C5E9F69BB77 /* Pods-WPlayerKit_Example.debug.xcconfig */,
+				50BCA5D54F7F51EEDC1411A28082C0F3 /* Pods-WPlayerKit_Example.release.xcconfig */,
+			);
+			name = "Pods-WPlayerKit_Example";
+			path = "Target Support Files/Pods-WPlayerKit_Example";
+			sourceTree = "<group>";
+		};
+		5E37BC1A97D72F71620CC0D70279C028 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57C063CD38D7C16446831D114C927791 /* Pods-WPlayerKit_Example */,
+				536A177C54B7DB9169E66AF3429EF05B /* Pods-WPlayerKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		80498D3962E7DEE3388AB3AE9C31D91F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8C5422E9305172BB5350B19022A172B0 /* LICENSE */,
+				B042C672D3D35EC042314C6DCADF0001 /* README.md */,
+				53257219EA42CA3AB129F2FB397EE876 /* WPlayerKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		A17DE584959103C9A93FA65724E7EB0F /* WPlayerKit */ = {
+			isa = PBXGroup;
+			children = (
+				68C22BEF11FDF40168E1B96258C69AFC /* Info.plist */,
+				E81052C72AC103B1B2F8A9F37CE22A12 /* WPlayerKit */,
+				E556650C59BC493B209DC5907E3093D2 /* Headers */,
+				3553B519EA67A4C5F9C63C8B2B51468B /* Modules */,
+				80498D3962E7DEE3388AB3AE9C31D91F /* Pod */,
+				D8129AAAEC49AA185527B2CBCB31E2EC /* Support Files */,
+			);
+			name = WPlayerKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
+				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
+				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
+				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
+				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
+				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
+				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				4BA2479549DD918290454B1CDCD0B92B /* Core */,
+				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
+				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FE457D2E37B78E906F641EA0AF6ED455 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				D17161025F766C48C4107FF3C9913D12 /* Products */,
+				5E37BC1A97D72F71620CC0D70279C028 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D17161025F766C48C4107FF3C9913D12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				975B532457E71C2009F0424D3186717F /* Pods_WPlayerKit_Example.framework */,
+				CC1AB9DF9AAEF7295D51AD1770BE5113 /* Pods_WPlayerKit_Tests.framework */,
+				DBE81033D90D68A7A74C8B3BF93F3649 /* WPlayerKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8129AAAEC49AA185527B2CBCB31E2EC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B98AD4A8C327FAF7B532210329DF0F27 /* WPlayerKit.modulemap */,
+				2C351625B598C95C29E569B491BFACDE /* WPlayerKit-dummy.m */,
+				D8D9177C08E0EB966FBB03CD689123F1 /* WPlayerKit-Info.plist */,
+				B54F65AE2F241E82FE1180DEE9675871 /* WPlayerKit-prefix.pch */,
+				FC4CE49E73913696999DB91AD9D1FEB8 /* WPlayerKit-umbrella.h */,
+				EEEBA9BC5720ADA9627C0C0FEBAFB157 /* WPlayerKit.debug.xcconfig */,
+				DA60082EC8FB372AEAA7503969684A62 /* WPlayerKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WPlayerKit";
+			sourceTree = "<group>";
+		};
+		E556650C59BC493B209DC5907E3093D2 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				FC0AD7C079F79F25840FF81FE0C7FC73 /* MediaCallBackDelegate.h */,
+				E40621DCD7CB89DEB9E9538F611D302F /* MediaClient.h */,
+				63B81B24A6C0444A6CFA957452994ACA /* MediaHeader.h */,
+				FBCF5C4CC4E636053919FEE84F2D9BA7 /* MessageManager.h */,
+				73F25DDCBA3F6952479FDDBA1941EBF3 /* NetApiManager.h */,
+				D965421077F88423408C525469B496EF /* P2PPlayManager.h */,
+				63E8E757891A4890D3FC58D23251778F /* P2PRecordVideoManager.h */,
+				17CD7438676D64717B5473FEF26BF8A9 /* PlayerManager.h */,
+				A8C20EB7FF8570A89A91DB5CD5D46E11 /* Server.h */,
+				DDF414E9A852DE58E40F2C3C6EFE9B00 /* SpeakVoiceManager.h */,
+				4C1A871E57E22954FC5018415FC5FF4E /* WPlayerKit.h */,
+				826703DE7118D406789F585A1C584225 /* ZDKBeautyControl.h */,
+				E76A6A86B585C8D3D682185B6E5B5036 /* ZDKPlayVideoView.h */,
+				6029B6FAC5486E68C81902C7742DE7DF /* ZDKSpeakerVoice.h */,
+			);
+			name = Headers;
+			path = WPlayerKit/Classes/WPlayerKit.framework/Headers;
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */,
+				3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */,
+				1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */,
+				E658F388F01C72599CA75537950B6095 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FE457D2E37B78E906F641EA0AF6ED455 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A17DE584959103C9A93FA65724E7EB0F /* WPlayerKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18A6BC3B5308499C6BCF22CDE182AB34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5E42B6DCE023318FF3F8B6C18AB69E /* Pods-WPlayerKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DFEDD53ABD2FF17339C3553C8471FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B33A92A659788ADFF51ED5B3D247D9 /* MediaCallBackDelegate.h in Headers */,
+				F0952F8C216458F280F014195EF853BF /* MediaClient.h in Headers */,
+				71BDBD6A08BD56512900424C434C8EB2 /* MediaHeader.h in Headers */,
+				75FA827C37CC4A584A48611607B0D0CB /* MessageManager.h in Headers */,
+				2F0D9E2565EDA50F981107E171CBA70B /* NetApiManager.h in Headers */,
+				1B15B4443D603F41825242B51411C7D0 /* P2PPlayManager.h in Headers */,
+				E7A242D371868B3CDDDADD0CECC83392 /* P2PRecordVideoManager.h in Headers */,
+				309C441498CDA0A801794E4878B5CA50 /* PlayerManager.h in Headers */,
+				8F499851BFEF3926A83B74362EEDDF84 /* Server.h in Headers */,
+				65FFF451DEA6B73971E00EE0EE1DA77E /* SpeakVoiceManager.h in Headers */,
+				8CFC57E92B02CCAB4EF7C59465934AE6 /* WPlayerKit-umbrella.h in Headers */,
+				A51ECD304DD008F83BE0170536C49B1E /* WPlayerKit.h in Headers */,
+				8B1A7FD2D7671403A4FDF7ABED3C9E2C /* ZDKBeautyControl.h in Headers */,
+				65B2CB8A982CC907690C6E67E7BE920F /* ZDKPlayVideoView.h in Headers */,
+				0F9E89EB89C732DE42CC2B7A0EB9B140 /* ZDKSpeakerVoice.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D86E53A687A592498627E325FFF6E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1D107E9DD6D2704CAC49AF9526153E /* Pods-WPlayerKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2153292F77C7739AFBDAA78C51D4A582 /* Pods-WPlayerKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 596780EADD54A2ACB20774548A852AF6 /* Build configuration list for PBXNativeTarget "Pods-WPlayerKit_Example" */;
+			buildPhases = (
+				B2D86E53A687A592498627E325FFF6E2 /* Headers */,
+				6A8D5A88FB8F1E1C6301CA3EB80FBB89 /* Sources */,
+				7BD9D9FC3F683C2EAF0A003C080CD900 /* Frameworks */,
+				0FA4B93319C64300AFC8861C4657A0DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A358BD55A9F96258DE09E79973F3B0 /* PBXTargetDependency */,
+			);
+			name = "Pods-WPlayerKit_Example";
+			productName = "Pods-WPlayerKit_Example";
+			productReference = 975B532457E71C2009F0424D3186717F /* Pods_WPlayerKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D82111E00F407373DA93B858E6922A7 /* Pods-WPlayerKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048BB6D4876923EDD4C00D7374BC212D /* Build configuration list for PBXNativeTarget "Pods-WPlayerKit_Tests" */;
+			buildPhases = (
+				18A6BC3B5308499C6BCF22CDE182AB34 /* Headers */,
+				5AA63B7CE42241D5AD03A495FC11506B /* Sources */,
+				0EED9D1565DE53380A5650D6BBB2911E /* Frameworks */,
+				91E75B1C446ABE041A5CF595DDFC5498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E01AB7375D1672F90676558684CCCAC /* PBXTargetDependency */,
+				90D58D543B58CD524153F8D50DBC2461 /* PBXTargetDependency */,
+			);
+			name = "Pods-WPlayerKit_Tests";
+			productName = "Pods-WPlayerKit_Tests";
+			productReference = CC1AB9DF9AAEF7295D51AD1770BE5113 /* Pods_WPlayerKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC002695E57ECDFF401E3AB1D5A27DF8 /* WPlayerKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A5ED253BD200CE6FCFAB9A30AEBFD37 /* Build configuration list for PBXNativeTarget "WPlayerKit" */;
+			buildPhases = (
+				38DFEDD53ABD2FF17339C3553C8471FE /* Headers */,
+				046E2B445C16AD267E4DC5B2514ACC80 /* Sources */,
+				918D1449CF6E0E42F3BD18C1B6B6B483 /* Frameworks */,
+				199D11FC96C17DE2F265EB7ECF032E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPlayerKit;
+			productName = WPlayerKit;
+			productReference = DBE81033D90D68A7A74C8B3BF93F3649 /* WPlayerKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D17161025F766C48C4107FF3C9913D12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				2153292F77C7739AFBDAA78C51D4A582 /* Pods-WPlayerKit_Example */,
+				8D82111E00F407373DA93B858E6922A7 /* Pods-WPlayerKit_Tests */,
+				AC002695E57ECDFF401E3AB1D5A27DF8 /* WPlayerKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FA4B93319C64300AFC8861C4657A0DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199D11FC96C17DE2F265EB7ECF032E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E75B1C446ABE041A5CF595DDFC5498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046E2B445C16AD267E4DC5B2514ACC80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F20EFA4511C6FA008D55A3729AF619D /* Info.plist in Sources */,
+				32CA574C055728EA5DE8EDAE8A2CB999 /* module.modulemap in Sources */,
+				0193F6BEB838D3261352F48003350305 /* WPlayerKit in Sources */,
+				21CECCAC028B721175F4E7AC6D15F53E /* WPlayerKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA63B7CE42241D5AD03A495FC11506B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A90E2D19D59DDDCE9EAF3268A3ADE7 /* Pods-WPlayerKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A8D5A88FB8F1E1C6301CA3EB80FBB89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C955913AF02A5F45B025922687CE085 /* Pods-WPlayerKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49A358BD55A9F96258DE09E79973F3B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WPlayerKit;
+			target = AC002695E57ECDFF401E3AB1D5A27DF8 /* WPlayerKit */;
+			targetProxy = 1239FFE2760D84D3DA54B0804E3D1F64 /* PBXContainerItemProxy */;
+		};
+		90D58D543B58CD524153F8D50DBC2461 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WPlayerKit_Example";
+			target = 2153292F77C7739AFBDAA78C51D4A582 /* Pods-WPlayerKit_Example */;
+			targetProxy = 4F040C7B999AA4673D2D9C6FC5571BBC /* PBXContainerItemProxy */;
+		};
+		9E01AB7375D1672F90676558684CCCAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 06EB2DBB91EC8567CF604F23590F0625 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		385F5174DF7B06BCA73904F7350C869E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50BCA5D54F7F51EEDC1411A28082C0F3 /* Pods-WPlayerKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WPlayerKit_Example/Pods-WPlayerKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WPlayerKit_Example/Pods-WPlayerKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D1A5C91D1E68387E975ED31F6D113D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 725F9F503E944D5E042B4C5E9F69BB77 /* Pods-WPlayerKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WPlayerKit_Example/Pods-WPlayerKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WPlayerKit_Example/Pods-WPlayerKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E52C41537F00E3E1E7DD0725C17FC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00DBA5C486FE0F049AEC34306507D565 /* Pods-WPlayerKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WPlayerKit_Tests/Pods-WPlayerKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WPlayerKit_Tests/Pods-WPlayerKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81353664903306B6AF837D1A42427225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B0B22D7EC872FF66E5693872776383E /* Pods-WPlayerKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WPlayerKit_Tests/Pods-WPlayerKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WPlayerKit_Tests/Pods-WPlayerKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		852DE0CA927D97B0E75B60F3D8401FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA60082EC8FB372AEAA7503969684A62 /* WPlayerKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WPlayerKit/WPlayerKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WPlayerKit/WPlayerKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WPlayerKit/WPlayerKit.modulemap";
+				PRODUCT_MODULE_NAME = WPlayerKit;
+				PRODUCT_NAME = WPlayerKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF531801B332EDF71FA8F4F9667B86BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6E7E81EEA9147C585C09FA0C9145851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEEBA9BC5720ADA9627C0C0FEBAFB157 /* WPlayerKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WPlayerKit/WPlayerKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WPlayerKit/WPlayerKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WPlayerKit/WPlayerKit.modulemap";
+				PRODUCT_MODULE_NAME = WPlayerKit;
+				PRODUCT_NAME = WPlayerKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048BB6D4876923EDD4C00D7374BC212D /* Build configuration list for PBXNativeTarget "Pods-WPlayerKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E52C41537F00E3E1E7DD0725C17FC3B /* Debug */,
+				81353664903306B6AF837D1A42427225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		596780EADD54A2ACB20774548A852AF6 /* Build configuration list for PBXNativeTarget "Pods-WPlayerKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1A5C91D1E68387E975ED31F6D113D1 /* Debug */,
+				385F5174DF7B06BCA73904F7350C869E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A5ED253BD200CE6FCFAB9A30AEBFD37 /* Build configuration list for PBXNativeTarget "WPlayerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6E7E81EEA9147C585C09FA0C9145851 /* Debug */,
+				852DE0CA927D97B0E75B60F3D8401FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */,
+				BF531801B332EDF71FA8F4F9667B86BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
